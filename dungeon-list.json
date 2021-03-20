@@ -1,5 +1,41 @@
     [
         {
+            "dg": ["ctn", "cth"],
+            "name": "Catalepticon",
+            "ilvl":"NM 444",
+            "coins":"NM 80",
+            "quest": 2181,
+            "instance": 3104,
+            "color": "#00aedb"
+        },
+		{
+            "dg": ["kg", "kgh"],
+            "name": "Killing Grounds",
+            "ilvl":"NM 444",
+            "coins":"NM 80",
+            "quest": 2185,
+            "instance": 3106,
+            "color": "#00aedb"
+        },
+        {
+            "dg": ["sky", "skynest", "kelsa", "ck", "ckn", "ckh", "cs", "csh", "csn"],
+            "name": "Corrupted Skynest",
+            "ilvl":"NM 461, HM 480",
+            "coins":"NM 250, HM 250",
+            "quest": 2169,
+            "instance": 3026,
+            "color": "#d11141"
+        },
+		{
+            "dg": ["rm", "rmh"],
+            "name": "Ruinous Manor",
+            "ilvl":"NM 444",
+            "coins":"NM 80",
+            "quest": 2137,
+            "instance": 9770,
+            "color": "#00aedb"
+        },
+        {
             "dg": ["fac", "ac"],
             "name": "Forbidden Arena Challenge",
             "ilvl":"461",

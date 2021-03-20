@@ -1,10 +1,11 @@
 {
     "name": "dg-teleport",
-    "author": "edu, PsykoDev",
+    "author": "edu, PsykoDev, Kae",
     "description": "Fast teleport to every important dungeon",
     "options": {
         "niceName": "DG-Teleport"
     },
-    "servers": ["https://raw.githubusercontent.com/PsykoDev/dg-teleport/master/"],
-    "disableAutoUpdate": false
+    "servers": ["https://raw.githubusercontent.com/Kuroine/dg-teleport/master/"],
+    "disableAutoUpdate": false,
+    "supportUrl": "https://github.com/Kuroine"
 }
