@@ -6,10 +6,19 @@ function DGTeleport(mod) {
     mod.dispatch.addOpcode('C_REQUEST_EVENT_MATCHING_TELEPORT', 49982);
     mod.dispatch.addDefinition('C_REQUEST_EVENT_MATCHING_TELEPORT', 0, path.join(__dirname, 'C_REQUEST_EVENT_MATCHING_TELEPORT.0.def'));
     
+    const bahaarTP = new Vec3(115023, 90044, 6377);
+
     if(mod.clientInterface.info.majorPatchVersion != 103){
         mod.manager.unload(mod.info.name);
         return;
     }
+
+    mod.hook('S_SPAWN_ME', 3, event => {
+        if (mod.game.me.zone == 7004 && bahaarTP.dist3D(event.loc) <= 5) {
+          event.loc = new Vec3(115321, 96917, 7196);
+        }
+        return true;
+      })
 
     cmd.add('dg', (value) => {
         if (value && value.length > 0) value = value.toLowerCase();

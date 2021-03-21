@@ -2,12 +2,13 @@
     "files": {
         "README.md": "b00cbab331e1e1242604e4d57b406955b60ef18f9c35bb4efbcb280b03be0f10",
         "dungeon-list.json": "0f1da47f1310026703a824a6cdb67545a1b3b5bd6aa0242d07d16a62abcfe055",
-        "index.js": "ba1f2c496d83e9b2f6f7b503c41793cbccbe9e64528041f3b3697a57c3bdd3e3",
+        "index.js": "6ef3adbc31d3541b453804c0a1b031a60f1a903f7640bb597ae2ab86d0085a64",
         "module.json": "0557338f444c389398a93f73a594f7e71c0898c04fb98b87fe1e69ca6628fd72"
     },
     "defs": {
         "C_REQUEST_EVENT_MATCHING_TELEPORT": 49982,
         "S_ANNOUNCE_UPDATE_NOTIFICATION": 1,
-        "S_LOAD_TOPO": "raw"
+        "S_LOAD_TOPO": "raw",
+        "S_SPAWN_ME": 3
     }
 }
