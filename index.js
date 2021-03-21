@@ -2,7 +2,9 @@ function DGTeleport(mod) {
     const cmd = mod.command || mod.require.command;
     const path = require('path');
 
+    const Vec3 = require('tera-vec3');
     const dungeons = jsonRequire('./dungeon-list.json');
+    
     mod.dispatch.addOpcode('C_REQUEST_EVENT_MATCHING_TELEPORT', 49982);
     mod.dispatch.addDefinition('C_REQUEST_EVENT_MATCHING_TELEPORT', 0, path.join(__dirname, 'C_REQUEST_EVENT_MATCHING_TELEPORT.0.def'));
     
