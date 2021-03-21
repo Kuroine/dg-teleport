@@ -12,7 +12,7 @@ Fast teleport to every important dungeon with GUI or not
 ## Info
 You can use part of dungeon name or its known abbreviations. eg.: gls, aahm, aq...
 
-Updated to current p103.
+Updated to current p103
 
 You need to have proper ilvl to teleport to each dungeon.
 

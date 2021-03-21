@@ -1,10 +1,15 @@
-module.exports = function DGTeleport(mod) {
+function DGTeleport(mod) {
     const cmd = mod.command || mod.require.command;
     const path = require('path');
 
     const dungeons = jsonRequire('./dungeon-list.json');
     mod.dispatch.addOpcode('C_REQUEST_EVENT_MATCHING_TELEPORT', 49982);
     mod.dispatch.addDefinition('C_REQUEST_EVENT_MATCHING_TELEPORT', 0, path.join(__dirname, 'C_REQUEST_EVENT_MATCHING_TELEPORT.0.def'));
+    
+    if(mod.clientInterface.info.majorPatchVersion != 103){
+        mod.manager.unload(mod.info.name);
+        return;
+    }
 
     cmd.add('dg', (value) => {
         if (value && value.length > 0) value = value.toLowerCase();
@@ -85,3 +90,5 @@ module.exports = function DGTeleport(mod) {
         }, 1000);
 	}
 };
+
+module.exports = DGTeleport;
