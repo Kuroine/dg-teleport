@@ -2,8 +2,8 @@
         {
             "dg": ["ctn", "cth"],
             "name": "Catalepticon",
-            "ilvl":"NM 444",
-            "coins":"NM 80",
+            "ilvl":"HM 494, HM 501",
+            "coins":"NM 280, 350",
             "quest": 2181,
             "instance": 3104,
             "color": "#00aedb"
@@ -11,16 +11,16 @@
 		{
             "dg": ["kg", "kgh"],
             "name": "Killing Grounds",
-            "ilvl":"NM 444",
-            "coins":"NM 80",
+            "ilvl":"NM 496, HM 501",
+            "coins":"280, 350",
             "quest": 2185,
             "instance": 3106,
             "color": "#00aedb"
         },
         {
-            "dg": ["sky", "skynest", "kelsa", "ck", "ckn", "ckh", "cs", "csh", "csn"],
+            "dg": ["csh", "csn"],
             "name": "Corrupted Skynest",
-            "ilvl":"NM 461, HM 480",
+            "ilvl":"NM 498, HM 501",
             "coins":"NM 250, HM 250",
             "quest": 2169,
             "instance": 3026,
@@ -29,17 +29,26 @@
 		{
             "dg": ["rm", "rmh"],
             "name": "Ruinous Manor",
-            "ilvl":"NM 444",
-            "coins":"NM 80",
+            "ilvl":"NM 471, HM 501",
+            "coins":"NM 200, 350",
             "quest": 2137,
             "instance": 9770,
             "color": "#00aedb"
         },
         {
+            "dg": ["bs", "bahaar"],
+            "name": "Bahaar's Sanctum",
+            "ilvl":"501",
+            "coins":"350",
+            "quest": 2162,
+            "instance": 9044,
+            "color": "#d11141"
+        },
+        {
             "dg": ["fac", "ac"],
             "name": "Forbidden Arena Challenge",
-            "ilvl":"461",
-            "coins":"220",
+            "ilvl":"498",
+            "coins":"280",
             "quest": 2171,
             "instance": 3027,
             "color": "#d11141"
@@ -69,15 +78,6 @@
             "coins":"NM 245, HM 370",
             "quest": 2166,
             "instance": 3101,
-            "color": "#d11141"
-        },
-        {
-            "dg": ["bs", "bahaar"],
-            "name": "Bahaar's Sanctum",
-            "ilvl":"456",
-            "coins":"295",
-            "quest": 2162,
-            "instance": 9044,
             "color": "#d11141"
         },
         {
